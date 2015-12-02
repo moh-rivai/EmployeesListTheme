@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600);
+.profile {
+  position: relative;
+  bottom: 130px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); }
+
+.ui.secondary.inverted.menu {
+  z-index: 4; }
+
+.ui.basic.modal {
+  color: #ebebeb; }
+
+.ui.form {
+  width: 40%;
+  margin: 0 auto; }
+
+.ui.grid.container .wide.column {
+  padding: 30px 10px; }
+  .ui.grid.container .wide.column img {
+    margin: 0 auto; }
+
+body {
+  font-family: "Open Sans"; }
+
+.body {
+  height: 100vh;
+  overflow: hidden; }
+
+.header {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../img/overlayblack.png"), url("../../img/bg.jpg");
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-position: top left, top center; }
+
+.header-page {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-image: url("../../img/overlayblack.png"), url("../../img/bgblur.jpg");
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-position: top left, center center; }
+  .header-page h1, .header-page h2, .header-page h3, .header-page h4, .header-page h5, .header-page h6 {
+    margin: 80px 0px;
+    font-size: 50px;
+    font-weight: 300;
+    color: #ebebeb; }
+
+.tombol-cari {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 5; }
+
+.trn {
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 200px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: white;
+  font-size: 60px;
+  color: #F2711C;
+  top: 100vh;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 6; }
+
+.trn-up {
+  top: 0;
+  background: white; }
+
+.page {
+  background: white;
+  position: relative;
+  -webkit-transition: all 5s ease;
+  transition: all 5s ease;
+  padding: 0px 0px 120px 0px;
+  top: 400px; }

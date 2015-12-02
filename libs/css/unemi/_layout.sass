@@ -1,0 +1,76 @@
+body
+  font-family: 'Open Sans'
+
+.body
+  height: 100vh
+  overflow: hidden
+
+
+.header
+  height: 100vh
+  position: relative
+  overflow: hidden
+  background: 
+    image: url('../../img/overlayblack.png'), url('../../img/bg.jpg')
+    size: auto, cover
+    repeat: repeat, no-repeat
+    position: top left, top center
+
+.header-page
+  height: 100vh
+  position: relative
+  overflow: hidden
+  text-align: center
+  background: 
+    image: url('../../img/overlayblack.png'), url('../../img/bgblur.jpg')
+    size: auto, cover
+    repeat: repeat, no-repeat
+    position: top left, center center
+    
+  h1, h2, h3, h4, h5, h6
+    margin: 80px 0px
+    font-size: 50px
+    font-weight: 300
+    color: $smoke
+    
+    
+.tombol-cari
+  position: absolute
+  top: 50px
+  bottom: 0
+  right: 0
+  left: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 5
+
+.trn
+  position: absolute
+  transition: all 0.5s ease
+  overflow: hidden
+  display: flex
+  padding: 200px
+  justify-content: center
+  align-items: center
+  background: white
+  font-size: 60px
+  color: $orange
+  top: 100vh
+  bottom: 0
+  right: 0
+  left: 0
+  z-index: 6
+
+.trn-up
+  top: 0
+  background: white
+
+.page
+  background: white
+  position: relative
+  transition: all 5s ease
+  padding: 0px 0px 120px 0px
+  top: 400px
+
+  
