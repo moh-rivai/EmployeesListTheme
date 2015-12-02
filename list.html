@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="libs/css/semantic.min.css">
+    <link rel="stylesheet" href="libs/css/icon/flaticon.css">
+    <link rel="stylesheet" href="libs/css/unemi/unemi.css">
+    <title>PSB Landing Page</title>
+</head>
+
+<body>
+    <section class="header-page">
+        <div class="ui secondary inverted menu">
+            <div class="menu">
+                <a href="#" class="item">
+                    Badan Pusat Statistik
+                </a>
+            </div>
+            <div class="right menu">
+                <div class="item">
+                    <a href="#" id="login" class="ui orange inverted button">
+                        Login
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h1>Hasil Pencarian</h1>
+    </section>
+    <section class="page">
+        <div class="ui grid container">
+            <div class="twelve wide column">
+               <h3>Hasil Pencarian</h3>
+                <table class="ui selectable basic table">
+                    <thead>
+                        <tr>
+                            <th>NIP</th>
+                            <th>Nama</th>
+                            <th>Golongan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>231</td>
+                            <td>Handry Wahyudi</td>
+                            <td>IV/a</td>
+                        </tr>
+                        <tr>
+                            <td>081241974335</td>
+                            <td>Afrian Junior</td>
+                            <td>Jomblo</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="four wide column">
+               <h3>Cari Lagi</h3>
+                <div class="ui action input">
+                    <input type="text" placeholder="Nama">
+                    <div class="ui compact selection dropdown" tabindex="0">
+                        <select>
+                            <option value="all">All</option>
+                            <option selected="" value="articles">Articles</option>
+                            <option value="products">Products</option>
+                        </select><i class="dropdown icon"></i>
+                        <div class="text">Golongan</div>
+                        <div class="menu" tabindex="1">
+                            <div class="item active selected" data-value="articles">IV/a</div>
+                            <div class="item" data-value="products">IV/b</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="ui basic modal">
+        <form class="ui form">
+            <h1>Login</h1>
+            <div class="field">
+                <input type="email" name="first-name" placeholder="Email">
+            </div>
+            <div class="field">
+                <input type="password" name="last-name" placeholder="Password">
+            </div>
+            <button class="ui button" type="submit">Masuk</button>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="libs/js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="libs/js/semantic.min.js"></script>
+    <script type="text/javascript" src="libs/js/unemi.js"></script>
+</body>
+
+</html>

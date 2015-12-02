@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="libs/css/semantic.min.css">
+    <link rel="stylesheet" href="libs/css/icon/flaticon.css">
+    <link rel="stylesheet" href="libs/css/unemi/unemi.css">
+    <title>PSB Landing Page</title>
+</head>
+
+<body>
+    <div class="body">
+        <section class="header">
+            <div class="ui secondary inverted menu">
+                <div class="menu">
+                    <a href="#" class="item">
+                    Badan Pusat Statistik
+                </a>
+                </div>
+                <div class="right menu">
+                    <div class="item">
+                        <a href="#" id="login" class="ui orange inverted button">
+                        Login
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tombol-cari">
+                <div class="ui action input">
+                    <input type="text" placeholder="Nama">
+                    <div class="ui compact selection dropdown" tabindex="0">
+                        <select>
+                            <option value="all">All</option>
+                            <option selected="" value="articles">Articles</option>
+                            <option value="products">Products</option>
+                        </select><i class="dropdown icon"></i>
+                        <div class="text">Golongan</div>
+                        <div class="menu" tabindex="1">
+                            <div class="item active selected" data-value="articles">IV/a</div>
+                            <div class="item" data-value="products">IV/b</div>
+                        </div>
+                    </div>
+                    <div type="submit" id="btn-cari" class="ui orange button">Cari</div>
+                </div>
+            </div>
+            <section class="trn">
+                <span>Tunggu Sebentar..</span>
+            </section>
+        </section>
+
+        <div class="ui basic modal">
+            <form class="ui form">
+               <h1>Login</h1>
+                <div class="field">
+                    <input type="email" name="first-name" placeholder="Email">
+                </div>
+                <div class="field">
+                    <input type="password" name="last-name" placeholder="Password">
+                </div>
+                <button class="ui button" type="submit">Masuk</button>
+            </form>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="libs/js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="libs/js/semantic.min.js"></script>
+    <script type="text/javascript" src="libs/js/unemi.js"></script>
+</body>
+
+</html>
